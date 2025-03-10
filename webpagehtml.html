@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Feneley</title>
+    <link rel="stylesheet" href="webpagecss.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h1>User Interfaces Portfolio</h1>
+        <h3>Ryan Feneley</h3>
+        <hr>
+    </header>
+
+    
+    <!-- menu -->
+    <nav id="navbar">
+        <button class="nav-button" onclick="scrollToSection('bio')">About Me</button>
+        <button class="nav-button" onclick="scrollToSection('journey')">My Journey</button>
+        <button class="nav-button" onclick="scrollToSection('skills')">Skills</button>
+        <button class="nav-button" onclick="scrollToSection('video')">Why UI/UX?</button>
+        <button class="nav-button" onclick="scrollToSection('htmlbasics')">HTML Basics</button>
+        <button class="nav-button" onclick="scrollToSection('cssbasics')">CSS Basics</button>
+        <button class="nav-button" onclick="scrollToSection('javascriptbasics')">JavaScript Basics</button>
+        <button class="nav-button" onclick="scrollToSection('projects')">Projects</button>
+
+
+        
+        <span id="currentDateTime">a</span>
+    </nav>
+
+    
+    
+    <!-- bio -->
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>
+            Hello! I’m Ryan Feneley, a <i>Senior Computer Science major</i> with a minor in Mathematics <a href="https://www.union.edu" target="_blank">at Union College</a>. 
+            I’m passionate about <mark>creating innovative solutions</mark>, designing user-friendly interfaces, and solving complex problems. 
+            I am very interested in software development, UI/UX design, and using technology to create easier and better user experiences.
+        </p>
+        <p>
+            This webpage showcases my journey, skills, and projects as I enhance my skills.
+        </p>
+        <p>Contact me at: <a href="mailto:feneleyr@union.edu">feneleyr@union.edu</a></p>
+    </section>
+
+    <!-- image-->
+    <section id="photo">
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQG1WqANyRIh3g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724448790314?e=2147483647&v=beta&t=OD-nnyqBssGEs9_Ed6T9C1CRO0u3iMRNVuJkN5MfwKM" 
+             alt="Ryan F Headshot" 
+             style="width:240px;height:200px;border:3px solid #00b894;">
+        <blockquote>
+            "The best way to predict the future is to invent it." – Alan Kay
+        </blockquote>
+    </section>
+
+    <!-- professional journey -->
+    <section id="journey">
+        <h2>My Professional Journey</h2>
+        <p>
+            When I first came to Union, I was declared as a <b>Biology</b> major. 
+            As a general elective, I took <b>Introduction to Computer Science</b> with 
+            professor <b>John Rieffel</b> to fulfill a requirement. 
+            I really enjoyed it, and so I ultimately decided to switch majors.
+        </p>
+        <p>
+            Currently, I am a senior <del>Biology</del> Computer Science major, 
+            passionate about learning more about UI design.
+        </p>
+    </section>
+
+    <!-- skills -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Programming Languages:
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </li>
+            <li>Web Design and UI Development</li>
+            <li>Problem Solving/Critical Thinking</li>
+        </ul>
+        <br>
+        <h3>Relevant CS Coursework in Chronological Order</h3>
+        <ol>
+            <li>CSC 105 -  Game Development: Introduction to Computer Science</li>
+            <li>CSC-281 -  CS Practicum 1</li>
+            <li>CSC-282 -  CS Practicum 2</li>
+            <li>CSC 120 -  Programming on Purpose</li>
+            <li>CSC 233 -  Intro to Data Analytics</li>
+            <li>CSC 151 -  Data Structures</li>
+            <li>CSC 270 -  Computer Organization</li>
+            <li>CSC 250 -  Algorithm Design and Analysis</li>
+            <li>CSC 260 -  Large-Scale Software Development</li>
+            <li>CSC-497 -  CS Capstone Design Seminar</li>
+            <li>CSC 340 -  Introduction to Databases</li>
+            <li>CSC 370 -  Programming Languages</li>
+            <li>CSC 489 -  Guided Research in Computer Science</li>
+            <li>CSC 380 -  User Interfaces</li>
+            <li>CSC 483 -  Selected Topics in Computer Science</li>
+        </ol>
+    </section>
+    <hr>
+
+    <!-- video -->
+    <section id="video">
+        <h2>Why is UI/UX Important?</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-XvfcBpwVGY" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- html basics -->
+    <section id="htmlbasics">
+        <h2>Some Things I've Learned About HTML</h2>
+        <p>
+            HTML is the standard language used to create webpages. It's made up of various elements and tags that define the structure and content of a webpage. 
+            One important thing I've learned is that HTML documents are made up of different types of elements:
+        </p>
+
+        <ul>
+            <li>The <code>&lt;html&gt;</code> tag: defines the start and end of an HTML file </li>
+            <li>The <code>&lt;head&gt;</code> tag: contains data meant for the beginning of the file like the title </li>
+            <li>The <code>&lt;body&gt;</code> tag: contains the main content of the page </li>
+        </ul>
+
+        <p>
+            Another important concept is using different types of elements for structuring content:
+        </p>
+        <ul>
+            <li>The <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags for headings, with <code>&lt;h1&gt;</code> being the largest and <code>&lt;h6&gt;</code> the smallest </li>
+            <li>The <code>&lt;p&gt;</code> tag for paragraphs, allowing you to have text in blocks </li>
+            <li>The <code>&lt;a&gt;</code> tag for creating links </li>
+        </ul>
+    </section>
+
+    <!-- css basics -->
+    <section id="cssbasics">
+        <h2>Some Things I've Learned About CSS</h2>
+        <p>CSS is used to control the layout and appearance of HTML elements. Here are a few key things I've learned about CSS:</p>
+        
+        <ul>
+            <li>CSS is used to apply styles like colors, fonts, margins, or padding to elements in an HTML file.</li>
+            <li>CSS selectors target HTML elements, and you can apply styles to specific elements using classes (<code>.class</code>) and IDs (<code>#id</code>).</li>
+        </ul>
+    </section>
+
+    <!-- js basics -->
+    <section id="javascriptbasics">
+        <h2>Some Things I've Learned About JavaScript</h2>
+        <p>JavaScript is used to add functionality and interactivity to a webpage. Here are a few key things I've learned:</p>
+        
+        <ul>
+            <li>
+                <strong>Updating Date & Time:</strong> 
+                JavaScript can dynamically update elements, like displaying the current date and time.
+                <pre><code>setInterval(updateDateTime, 1000);</code></pre>
+            </li>
+            
+            <li>
+                <strong>Scrolling to Sections:</strong> 
+                JavaScript allows smooth scrolling to different sections when a button is clicked.
+                <pre><code>document.getElementById("sectionId").scrollIntoView({ behavior: "smooth" });</code></pre>
+            </li>
+            
+            <li>
+                <strong>Scroll-to-Top Button:</strong> 
+                Using JavaScript, we can detect when the user scrolls down and show a button to return to the top.
+                <pre><code>window.addEventListener("scroll", function () { ... });</code></pre>
+            </li>
+        </ul>
+    </section>
+    
+
+
+    <!-- projects-->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="columns">
+        <div class="column">
+            <h3>Project 1: Web Development Portfolio</h3>
+            <h3>Class: User Interfaces</h3>
+            <p>This project showcases various web development skills such as HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="column">
+            <h3>Project 2: Game Development</h3>
+            <h3>Class: Intro to CS</h3>
+            <p>A 2D game created using Python and Pygame.</p>
+        </div>
+        <div class="column">
+            <h3>Project 3: Mobile App</h3>
+            <h3>Class: Software Design</h3>
+            <p>A mobile app designed to help students track their homework assignments and deadlines made in Java</p>
+        </div>
+    </div>
+</section>
+
+    <!-- scroll up button -->
+    <button id="scrollToTopBtn">⬆ Top</button>
+
+    <!-- footer -->
+    <footer>
+        <hr>
+        <p> Last updated 2/3/25</p>
+    </footer>
+    <script src="webpagejs.js"></script>
+
+</body>
+</html>
